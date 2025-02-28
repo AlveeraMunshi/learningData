@@ -1,0 +1,251 @@
+<html>
+<head>
+<style>
+body { font: 14px sans-serif, Trebuchet MS; width: 85%; margin-left:3%;}
+a, a:visited { color: blue; }
+table { border-collapse: collapse; cellspacing: 0px; }
+th { font: bold 14px Trebuchet MS; border-bottom: 1px solid black;
+text-align:left; padding-right: 50px;}
+td { padding-top: 10px; padding-bottom: 10px; 
+font: 13px Trebuchet MS; vertical-align: top;
+padding-right: 50px;}
+tt { color: blue; }
+pre { font-size: 13px; }
+div.prompt { width: 40%; margin-left: 2em; background: green; color: white;
+padding: 10px; margin-bottom: 2em;}
+div.resp { margin-left: 2em; padding: 10px; background: lightgrey;}
+</style>
+</head>
+<body>
+<h2>Cheat Sheet of Python Sytnax</h2>
+
+I prompted ChatGPT like this:<p>
+<div class="prompt">
+Can you give me a cheat sheet of Python syntax?
+</div>
+And it produced this:
+<!--
+<a href="https://chatgpt.com/share/2573e964-38db-4dcb-84a7-516b18b83dbd">Cheat Sheet</a>
+-->
+<p>
+<div class="resp">
+<table>
+<tr>
+<td>
+<b>Variables and Data Types</b>
+<pre>
+# Variables
+x = 5
+y = "Hello, World!"
+
+# Data Types
+integer = 10
+floating = 10.5
+string = "Python"
+boolean = True
+list = [1, 2, 3]
+tuple = (1, 2, 3)
+dictionary = {"name": "John", "age": 30}
+set_var = {1, 2, 3}
+none_var = None
+</pre>
+</td>
+<td>
+<b>Arithmetic Operators</b>
+<pre>
+a = 10
+b = 3
+
+addition = a + b       # 13
+subtraction = a - b    # 7
+multiplication = a * b # 30
+division = a / b       # 3.3333
+floor_division = a // b # 3
+modulus = a % b        # 1
+exponentiation = a ** b # 1000
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+<b>Comparison Operators</b>
+<pre>
+x == y # Equal to
+x != y # Not equal to
+x > y  # Greater than
+x < y  # Less than
+x >= y # Greater than or equal to
+x <= y # Less than or equal to
+</pre>
+<b>Logical Operators</b>
+<pre>
+and_operator = (x > 5 and y < 10)
+or_operator = (x > 5 or y < 10)
+not_operator = not(x > 5)
+</pre>
+</td>
+<td>
+<b>Control Flow - Conditional Statements</b>
+<pre>
+if x > y:
+    print("x is greater than y")
+elif x == y:
+    print("x is equal to y")
+else:
+    print("x is less than y")
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+<b>Control Flow - Loops</b>
+<pre>
+# For Loop
+for i in range(5):
+    print(i)
+
+# While Loop
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+</pre>
+</td>
+<td>
+<b>Functions</b>
+<pre>
+def greet(name):
+    return "Hello, " + name
+
+# Calling the function
+print(greet("Alice"))
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+<b>Data Structures: Lists</b>
+<pre>
+# Creating a list
+fruits = ["apple", "banana", "cherry"]
+
+# Accessing elements
+print(fruits[0])  # apple
+
+# Adding elements
+fruits.append("orange")
+
+# Removing elements
+fruits.remove("banana")
+
+# Slicing
+print(fruits[1:3]) # ['cherry', 'orange']
+</pre>
+</td>
+<td>
+<b>Data Structures: Dictionaries</b>
+<pre>
+# Creating a dictionary
+person = {"name": "Alice", "age": 25}
+
+# Accessing values
+print(person["name"])  # Alice
+
+# Adding key-value pairs
+person["city"] = "New York"
+
+# Removing key-value pairs
+del person["age"]
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+<b>Strings</b>
+<pre>
+text = "Hello, World!"
+
+# String concatenation
+greeting = "Hello" + " " + "World"
+
+# String formatting
+formatted = f"{greeting}, it's {2024}!"
+
+# Methods
+print(text.lower()) # hello, world!
+print(text.upper()) # HELLO, WORLD!
+print(text.split(',')) # ['Hello', ' World!']
+</pre>
+</td>
+<td>
+<b>Exception Handling</b>
+<pre>
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+finally:
+    print("This will always execute")
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+<b>File Handling</b>
+<pre>
+# Writing to a file
+with open('file.txt', 'w') as file:
+    file.write("Hello, World!")
+
+# Reading from a file
+with open('file.txt', 'r') as file:
+    content = file.read()
+    print(content)
+</pre>
+</td>
+<td>
+<b>Modules and Imports</b>
+<pre>
+# Importing a module
+import math
+
+# Using a module
+print(math.sqrt(16))  # 4.0
+
+# Importing specific functions
+from math import pi, sqrt
+print(pi)  # 3.14159
+print(sqrt(16))  # 4.0
+</pre>
+</td>
+<tr>
+<td>
+<b>List Comprehensions</b>
+<pre>
+# List comprehension
+squares = [x**2 for x in range(10)]
+</pre>
+</td>
+<td>
+<b>Classes and Objects</b>
+<pre>
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        return f"Hello, my name is {self.name}"
+
+# Creating an object
+person1 = Person("Alice", 25)
+print(person1.greet())
+</pre>
+</td>
+</tr>
+</table>
+</div>
+
+<p>Note: Defining classes is not covered in this class, so you can ignore that last part.
+</body>
+</html>
