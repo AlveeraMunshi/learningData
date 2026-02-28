@@ -1,0 +1,33 @@
+item,value
+"Q1: corr(avg_temp_f, math_score)",-0.547
+Q1: alpha_hat,589.46
+Q1: beta_hat,-2.251
+Q1: SE_alpha_homosked,11.907
+Q1: SE_beta_homosked,0.213
+Q1: SE_alpha_robust,12.476
+Q1: SE_beta_robust,0.228
+Q1: t for H0: beta=0 (robust),-9.879
+Q1: t for H0: beta=-1.85 (robust),-1.76
+Q1: delta math for -2.35°F,5.29
+Q2 Eq2: beta1 (fees),73.025
+Q2 Eq2: SE_beta1_robust,9.31
+"Q2: corr(units, fees)",0.711
+"Q2: corr(units, construction_cost)",0.675
+Q2 Eq3: beta2 (fees),63.098
+Q2 Eq3: SE_beta2_robust,7.623
+Q2 Eq3: theta2 (units),20260.846
+Q2 Eq3: SE_theta2_robust,16142.477
+Q2 Eq4: alpha3 (intercept),-137561.07
+Q2 Eq4: SE_alpha3_robust,53218.337
+Q2 Eq4: beta3 (fees),48.15
+Q2 Eq4: SE_beta3_robust,20.489
+Q2 Eq4: theta3 (units),17471.405
+Q2 Eq4: SE_theta3_robust,14976.756
+Q2 Eq4: kappa3 (square_feet),0.711
+Q2 Eq4: SE_kappa3_robust,0.574
+Q2 Eq4: nu3 (volume),1.466
+Q2 Eq4: SE_nu3_robust,1.855
+Q2 Eq4: phi_nb (new_brunswick),47630.464
+Q2 Eq4: SE_phi_nb_robust,179622.737
+Q2 Eq4: phi_edison (edison),3244.391
+Q2 Eq4: SE_phi_edison_robust,46072.965

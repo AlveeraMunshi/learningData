@@ -1,0 +1,22 @@
+PROBLEM SET 2 — Questions with Answers
+
+Question 1.1) 
+mean = 201.476, variance = 42124.075
+Question 1.2) 
+mean_10 = 172.461, mean_25 = 187.637, mean_100 = 200.254; closest: n=100
+Question 1.3) 
+avg(sample mean, n=2) = 198.826; avg(sample mean, n=500) = 201.257. The n=2 distribution is wider/less normal; n=500 is tighter and approximately normal (CLT).
+Question 2.1) 
+% bachelor = 55.871%. Mean income (bachelor) = 206093.774; mean income (no bachelor) = 112860.19.
+Question 2.2) 
+mean hourly wage = 46.869; variance = 3988.558.
+Question 2.3) 
+t = 2.019, p = 0.044. Reject at 1%? False; at 5%? True; at 10%? True.
+Question 2.4) 
+t = 2.019, p = 0.022. Reject at 5%? True; at 10%? True.
+Question 2.5) 
+n = 4210, mean = 47.06, t = 1.19, p = 0.117. Reject at 5%? False; at 10%? False.
+Question 2.6) 
+difference = 28.9; t = 37.806, p = 0.0; significant at 5%? True.
+Question 2.7) 
+(a) corr(rent, bachelor) = 0.363; corr(rent_to_income_ratio, bachelor) = -0.053. (b) mean = 32.794, 95% CI = [28.417, 37.171], 30% outside CI? False. (c) mean(non-bachelor) = 45.957, t = 7.026, p = 0.0; reject at 5%? True.

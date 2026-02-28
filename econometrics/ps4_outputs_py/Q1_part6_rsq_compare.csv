@@ -1,0 +1,5 @@
+model,r_squared,note
+Linear,0.292,
+Quadratic,0.415,
+Linear-Log,0.493,
+Log-Log*,0.492,*DV transformed; R^2 not directly comparable
